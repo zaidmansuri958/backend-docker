@@ -1,0 +1,14 @@
+first create the dokcer iamge of this folder 
+
+docker build -t imagename . 
+
+
+then create the network 
+connect both backend and database to the same network
+
+then create the container for mongodb and attach to the the network
+
+give the mongodb container name to the mongodb connect url 
+
+
+create the container for the backend and connect that to the same network
